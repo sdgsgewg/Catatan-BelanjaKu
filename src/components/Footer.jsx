@@ -9,7 +9,7 @@ export default function Footer({ items }) {
   return (
     <footer className="stats">
       Ada {totalItems} barang di daftar belanjaan, {checkedItems} barang sudah
-      dibeli ({percentage})
+      dibeli ({percentage} %)
     </footer>
   );
 }
